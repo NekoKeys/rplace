@@ -11,8 +11,10 @@
 // @downloadURL  https://halfdane.github.io/rplace/autoclicker.user.js
 // ==/UserScript==
 
-const X_OFFSET = 773
-const Y_OFFSET = 735
+
+const X_OFFSET = 642
+const Y_OFFSET = 1768
+
 
 async function run() {
     const debug=false;

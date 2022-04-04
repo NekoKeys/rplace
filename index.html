@@ -32,6 +32,7 @@
             If you use Firefox:
             <a href="https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/">https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/</a>
             <br />
+            To install, click here:<a href="https://addisontustin.github.io/rplace/supporter.user.js">https://addisontustin.github.io/rplace/supporter.user.js</a>
         </p>
     </div>
 
@@ -46,8 +47,8 @@
         const X_OFFSET=400
         const Y_OFFSET=100
 
-        const X_IN_PLACE=1486
-        const Y_IN_PLACE=764
+        const X_IN_PLACE=643
+        const Y_IN_PLACE=1769
 
         function getMousePos(canvas, evt) {
             const rect = canvas.getBoundingClientRect();
@@ -90,7 +91,7 @@
             bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h)
             drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg)
         };
-        img.src = "https://raw.githubusercontent.com/NekoKeys/rplace/main/cal-poly.png";
+        img.src = "https://raw.githubusercontent.com/AddisonTustin/rplace/main/cal-poly.png";
 
         function drawText(text, x, y){
             fg.font = '80px Sans-serif';
